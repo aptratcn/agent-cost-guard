@@ -1,0 +1,34 @@
+#!/bin/bash
+# Agent Cost Guard - Shell wrapper
+# Usage: cost-status, cost-budget, cost-history, cost-optimize
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PYTHON_SCRIPT="$SCRIPT_DIR/cost_guard.py"
+
+# Check Python availability
+if ! command -v python3 &> /dev/null; then
+    echo "❌ Python 3 required"
+    exit 1
+fi
+
+# Map commands
+case "$1" in
+    status|budget|history|optimize)
+        python3 "$PYTHON_SCRIPT" "$@"
+        ;;
+    *)
+        echo "💰 Agent Cost Guard"
+        echo ""
+        echo "Commands:"
+        echo "  cost-status     Show current cost status"
+        echo "  cost-budget     Set/view budget limits"
+        echo "  cost-history    View spending history"
+        echo "  cost-optimize   Get savings recommendations"
+        echo ""
+        echo "Examples:"
+        echo "  cost-status"
+        echo "  cost-budget --daily 10"
+        echo "  cost-history --days 7"
+        echo "  cost-optimize"
+        ;;
+esac
