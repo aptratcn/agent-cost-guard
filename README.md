@@ -15,7 +15,7 @@
 - "I'd use cheaper models for simple tasks but always forget"
 - "My team blew through the AI budget in week one"
 
-**free-claude-code trending at 9K+ stars proves cost is the #1 AI agent pain point.**
+**free-claude-code trending at 11.2K★ (+4K in one day) proves cost is the #1 AI agent pain point.**
 
 ## The Solution
 
