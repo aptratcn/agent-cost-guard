@@ -15,7 +15,9 @@
 - "I'd use cheaper models for simple tasks but always forget"
 - "My team blew through the AI budget in week one"
 
-**free-claude-code trending at 11.2K★ (+4K in one day) proves cost is the #1 AI agent pain point.**
+**free-claude-code trending at 13.7K★ (+1.7K today) proves cost is the #1 AI agent pain point.**
+
+mattpocock/skills (24K★, +2.5K today) shows practical skills beat concepts — cost tracking is pure utility.
 
 ## The Solution
 
@@ -145,6 +147,8 @@ Typical developer using AI agents 4 hours/day:
 - Without optimization: ~$200/month
 - With Cost Guard recommendations: ~$120/month
 - **Savings: $80/month = $960/year**
+
+**Team scenario (10 devs): $9,600/year saved**
 
 ## Installation
 
