@@ -2,6 +2,8 @@
 
 > Stop surprise AI bills. Track, budget, and optimize your agent spending.
 
+> **🔥 GitHub Copilot just moved to usage-based billing** (HN 545pts, Apr 2026). Cost awareness is no longer optional — it's survival.
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Zero Dependencies](https://img.shields.io/badge/dependencies-0-green.svg)]()
 [![Skill](https://img.shields.io/badge/type-agent--skill-blue.svg)]()
@@ -15,9 +17,7 @@
 - "I'd use cheaper models for simple tasks but always forget"
 - "My team blew through the AI budget in week one"
 
-**free-claude-code trending at 13.7K★ (+1.7K today) proves cost is the #1 AI agent pain point.**
-
-mattpocock/skills (24K★, +2.5K today) shows practical skills beat concepts — cost tracking is pure utility.
+**GitHub Copilot → usage billing.** **free-claude-code** 16K★ (+2,949/day). **mattpocock/skills** 30K★ (+5,645/day). The signal is clear: cost control is the #1 AI agent pain point in 2026.
 
 ## The Solution
 
@@ -156,7 +156,10 @@ Typical developer using AI agents 4 hours/day:
 # Option 1: Clone to skills directory
 git clone https://github.com/aptratcn/agent-cost-guard.git ~/.agent-skills/
 
-# Option 2: Add to AGENTS.md
+# Option 2: npx install (if using skills registry)
+npx skills@latest add aptratcn/agent-cost-guard
+
+# Option 3: Add to AGENTS.md
 echo "- agent-cost-guard: ~/.agent-skills/agent-cost-guard" >> AGENTS.md
 ```
 
