@@ -8,6 +8,8 @@
 [![Zero Dependencies](https://img.shields.io/badge/dependencies-0-green.svg)]()
 [![Skill](https://img.shields.io/badge/type-agent--skill-blue.svg)]()
 
+**Why now?** free-claude-code is [trending #1 on GitHub](https://github.com/trending) with **37K+ stars** — developers are desperate to control AI costs. GitHub Copilot's shift to usage billing made cost awareness mandatory. This skill gives you that awareness before the bill arrives.
+
 ## The Pain
 
 **You're spending money. You don't know how much.**
@@ -17,7 +19,7 @@
 - "I'd use cheaper models for simple tasks but always forget"
 - "My team blew through the AI budget in week one"
 
-**GitHub Copilot → usage billing.** **free-claude-code** 16K★ (+2,949/day). **mattpocock/skills** 30K★ (+5,645/day). The signal is clear: cost control is the #1 AI agent pain point in 2026.
+**GitHub Copilot → usage billing.** **free-claude-code** 17.5K★ (+1,741/day). **mattpocock/skills** 37.7K★ (+7,321/day). The signal is clear: cost control is the #1 AI agent pain point in 2026.
 
 ## The Solution
 
